@@ -1,0 +1,26 @@
+<div class="container mt-3">
+    <div class="rowsection homeimage">
+        <img src="images/Batesmotelhero.jpg" class="img-fluid"/>
+    </div>
+    <div class="rowsection section2">
+            <div class="rounded-3 boxtickets">
+                <h1>Tickets to die for!</h1>
+                        <div class="section1-link">
+          <button
+            class="btn btn-outline-secondary"
+            href="#"
+            @click.prevent="changeContent('about', 'About')"
+            :class="{'active': currentPage === 'products'}"
+            type="button"
+          >
+            Tickets
+          </button>
+        </div>
+            </div> 
+        <div class="rowsection section2">
+            <img class="Rankingpictures" src="images/house1.png"/>
+            <img class="Rankingpictures" src="images/house2.png"/>
+            <img class="Rankingpictures" src="images/house3.png"/>
+        </div>
+    </div>
+</div>
