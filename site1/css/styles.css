@@ -23,6 +23,10 @@ body{
     background-color: grey;
 }
 
+h1,h2{
+    font-family: 'Creepster';
+}
+
 .nav-link{
     color:darkorange;
 }
@@ -112,4 +116,24 @@ body{
 
 .my-footer a{
     color:orange !important;
+}
+
+.navbar {
+   padding: 0;
+}
+
+.contact-section > *{
+    text-align: center;
+}
+
+.contact{
+    background-color:black;
+    padding: 0px;
+}
+
+.contact > div {
+    padding: 10px;
+    align-content: center;
+    color: white;
+    margin: 0px;
 }
