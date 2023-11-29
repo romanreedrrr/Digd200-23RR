@@ -55,7 +55,7 @@ nav[data-bs-theme="dark"]{
         color:var(--my-special-btn-color);
 }
 h1 {
-    color:var(#FF958C)
+    color:#FF958C;
 }
 
 
@@ -69,6 +69,39 @@ footer i {
 } 
 
 .Homebar {
+
     background-color:#0D3B66;
-    color: white;
+    color: #FF958C;
+}
+
+.bellatop {
+  background-image: url("../images/Nonprofithero.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.special-row .card-img-top {
+width: 100%;
+height: 15vw;
+object-fit: cover;
+}
+@media (max-width:767px){
+ .special-row .card-img-top {
+height:50vw;
+}
+}
+
+.Firstpage {
+  background-image: url("../images/HOME_hero.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.box{
+    background-color: rgba(000, 000, 000, 0.6);
+}
+
+.secondtitle{ 
+    color:#BFCDE0;
+    
 }
