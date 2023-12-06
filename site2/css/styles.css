@@ -120,7 +120,11 @@ a.navbar-brand img{
     height: 80px;
 } 
 
-.p {
+p.navy {
     color:#0D3B66:
+}
+
+h5 {
+    color:#0D3B66;
 }
 
